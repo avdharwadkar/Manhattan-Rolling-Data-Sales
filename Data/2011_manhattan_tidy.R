@@ -2,11 +2,15 @@
 # Date Created:  10/17/2016
 # Description:  Clean the datafile for manhattan rolling sales data
 
+# Please set the local directory to the projects main directory in whichever folder this project is downloaded
+# As an example see the below
+# setwd("C:\\Data Science\\githome\\Manhattan-Rolling-Data-Sales")
+
 library(gdata)
 library(plyr) 
 # 
 # Read the comma delimited csv file whith header starting at row 5 
-manhattan <- read.csv(".\\2011_manhattan.csv",stringsAsFactors=FALSE,skip=4, header=TRUE)
+manhattan <- read.csv(".\\Data\\2011_manhattan.csv",stringsAsFactors=FALSE,skip=4, header=TRUE)
 
 ## Check the data
 head(manhattan,5)

@@ -19,7 +19,7 @@ library(plyr)
 
 Read the cleaned comma delimited csv file whith header starting at row 1:
 ```{r}
-manhattan.clean <- read.csv("D:\\My Documents\\GitHub\\Manhattan-Rolling-Data-Sales\\Data\\2011_manhattan_tidy.csv",header=TRUE)
+manhattan.clean <- read.csv("..\\Data\\2011_manhattan_tidy.csv",header=TRUE)
 ```
 
 Check what variables are there and the their types:
