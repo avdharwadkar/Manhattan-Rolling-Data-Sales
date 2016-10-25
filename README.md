@@ -1,4 +1,5 @@
 Contributors:  Abhishek Dharwadkar, Vishi Cline, Kevin Cannon
+
 Created Date:  10/21/2016
 
 ## Manhattan-Rolling-Data-Sales
