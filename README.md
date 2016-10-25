@@ -14,5 +14,6 @@ The project consists of 3 directories:
 
 3.  The Paper directory contains a file named Paper.Rmd, Paper.md and Paper.html.  The html file contains the conclusions based on meaningful patterns found through the analysis.  The rmd file contains the code and plots/histograms to support the conclusions made.
 
-Please set the local directory to the projects' main directory in whichever folder this project is downladed.  As an example, please see below: 
+Please set the local directory to the projects' main directory in whichever folder this project is downloaded.  As an example, please see below: 
+
 setwd("C:\\DataScience\\githome\\Manhattan-Rolling-Data-Sales")
