@@ -35,6 +35,11 @@ hist(manhattan.clean$sale.price.n)
 hist(log10(manhattan.clean$sale.price.n))
 ```
 
+# Meaningful transformation
+The original messy data set shows heavily right-skewed data values of both gross square footage and sale price. After a log transformation, the data displays a more normal distrbution, which is ready for further analysis.
+
+***
+
 Explore the data with scatterplots to check the effect of the size of the house on the sale price:
 ```{r}
 plot(log10(manhattan.clean$gross.sqft),log10(manhattan.clean$sale.price.n), pch = 16, cex = 1.3, col = "blue", xlab = "Gross Sqft", ylab = "Sale Price")
