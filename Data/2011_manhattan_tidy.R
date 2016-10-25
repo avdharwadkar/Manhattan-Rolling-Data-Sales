@@ -87,6 +87,6 @@ manhattan.homes$outliers <- (log10(manhattan.homes$sale.price.n) <=5) + 0
 manhattan.homes <- manhattan.homes[which(manhattan.homes$outliers==0),]
 
 # output the clean dataset to output file for analysis
-write.csv(manhattan.homes,file=".\\2011_manhattan_tidy.csv")
+write.csv(manhattan.homes,file=".\\Data\\2011_manhattan_tidy.csv")
 
 
